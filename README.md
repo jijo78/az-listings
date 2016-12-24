@@ -1,6 +1,6 @@
-# bbc-test
+# listings
 ##To checkout
-* git clone git@github.com:jijo78/train.git
+* git clone git@github.com:jijo78/az-listings.git
 
 ##To run
 * grunt
