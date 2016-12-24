@@ -1,0 +1,12 @@
+.output{
+  .output__item{
+  	width: 33%;
+  	img{
+  		width: 100%;
+  		height: auto;
+  	}
+  	@media  (max-width:480px) {
+  		width: 100%;
+  	}
+  }
+}

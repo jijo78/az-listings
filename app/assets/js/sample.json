@@ -1,0 +1,2386 @@
+"atoz_programmes": {
+"character": "b",
+"count": 116,
+"page": 1,
+"per_page": 20,
+"elements": [
+{
+"id": "p04cj7gf",
+"type": "programme_large",
+"title": "Babi Del: Ward Geni",
+"images": {
+"type": "image",
+"standard": "https://ichef.bbci.co.uk/images/ic/{recipe}/p04cqmlc.jpg"
+},
+"synopses": {
+"large": "Cyfres yn dilyn mamau sydd wedi gadael i'r camerau eu ffilmio wrth iddynt ddod a bywydau newydd i'r byd. True life tales of pregnancy and childbirth following Welsh mums to be.",
+"small": "Cyfres yn dilyn mamau sydd wedi gadael i'r camerau eu ffilmio wrth iddynt ddod a bywyda...",
+"medium": "Cyfres yn dilyn mamau sydd wedi gadael i'r camerau eu ffilmio wrth iddynt ddod a bywydau newydd i'r byd. True life tales of pregnancy and childbirth following Welsh mums to be."
+},
+"suppliers": [],
+"tleo_type": "brand",
+"categories": [
+"wales"
+],
+"master_brand": {
+"id": "s4cpbs",
+"titles": {
+"large": "S4C",
+"small": "S4C",
+"medium": "S4C"
+},
+"attribution": "s4c"
+},
+"lexical_sort_letter": "B",
+"status": "available",
+"count": 3,
+"initial_children": [
+{
+"id": "p04jdhp7",
+"live": false,
+"type": "episode",
+"title": "Babi Del: Ward Geni",
+"images": {
+"type": "image",
+"standard": "https://ichef.bbci.co.uk/images/ic/{recipe}/p04cqmlc.jpg",
+"inherited_from": "brand"
+},
+"signed": true,
+"status": "available",
+"tleo_id": "p04cj7gf",
+"guidance": false,
+"subtitle": "Cyfres 2: Pennod 6",
+"synopses": {
+"large": "Graddio, symud ty a sialens y Tough Mudder. Mae bywydau'r cwpl yma o Sir Fon yn hen ddigon prysur, heb son am enedigaeth y babi del! An Anglesey couple with busy lives fit in having a baby!",
+"small": "Graddio, symud ty a sialens y Tough Mudder. Mae bywydau'r cwpl yma o Sir Fon yn hen ddi...",
+"medium": "Graddio, symud ty a sialens y Tough Mudder. Mae bywydau'r cwpl yma o Sir Fon yn hen ddigon prysur, heb son am enedigaeth y babi del! An Anglesey couple with busy lives fit in ha..."
+},
+"versions": [
+{
+"hd": false,
+"id": "p04lrc9q",
+"kind": "technical-replacement",
+"type": "version",
+"download": true,
+"duration": {
+"text": "24 mins",
+"value": "PT23M58S"
+},
+"availability": {
+"end": "2017-01-12T21:00:00Z",
+"start": "2016-12-17T14:24:02Z",
+"remaining": {
+"text": "Available for 23 days"
+}
+},
+"first_broadcast": "13 Dec 2016"
+},
+{
+"hd": false,
+"id": "p04jdhpd",
+"kind": "original",
+"type": "version",
+"download": true,
+"duration": {
+"text": "24 mins",
+"value": "PT23M58S"
+},
+"availability": {
+"end": "2017-01-12T21:00:00Z",
+"start": "2016-12-13T21:00:00Z",
+"remaining": {
+"text": "Available for 23 days"
+}
+},
+"first_broadcast": "13 Dec 2016"
+},
+{
+"hd": false,
+"id": "p04lrc9q",
+"kind": "signed",
+"type": "version",
+"download": true,
+"duration": {
+"text": "24 mins",
+"value": "PT23M58S"
+},
+"availability": {
+"end": "2017-01-12T21:00:00Z",
+"start": "2016-12-17T14:24:02Z",
+"remaining": {
+"text": "Available for 23 days"
+}
+},
+"first_broadcast": "13 Dec 2016"
+}
+],
+"parent_id": "p04cj7gk",
+"suppliers": [],
+"tleo_type": "brand",
+"categories": [
+"signed",
+"wales"
+],
+"has_credits": false,
+"master_brand": {
+"id": "s4cpbs",
+"titles": {
+"large": "S4C",
+"small": "S4C",
+"medium": "S4C"
+},
+"attribution": "s4c"
+},
+"release_date": "13 Dec 2016",
+"related_links": [],
+"original_title": "Pennod 6",
+"audio_described": false,
+"requires_sign_in": true,
+"release_date_time": "2016-12-13T00:00:00.000Z",
+"lexical_sort_letter": "B",
+"requires_tv_licence": false
+}
+]
+},
+{
+"id": "p03db8kh",
+"type": "programme_large",
+"title": "Babi Ni",
+"images": {
+"type": "image",
+"standard": "https://ichef.bbci.co.uk/images/ic/{recipe}/p03dqtkh.jpg"
+},
+"synopses": {
+"large": "Cyfres yn dilyn merch fach wrth iddi baratoi ar gyfer cael babi newydd yn y teulu. Series following a girl as she prepares for the birth of her baby sister or brother.",
+"small": "Cyfres yn dilyn merch fach wrth iddi baratoi ar gyfer cael babi newydd yn y teulu. Seri...",
+"medium": "Cyfres yn dilyn merch fach wrth iddi baratoi ar gyfer cael babi newydd yn y teulu. Series following a girl as she prepares for the birth of her baby sister or brother."
+},
+"suppliers": [],
+"tleo_type": "series",
+"categories": [
+"wales"
+],
+"master_brand": {
+"id": "s4cpbs",
+"titles": {
+"large": "S4C",
+"small": "S4C",
+"medium": "S4C"
+},
+"attribution": "s4c"
+},
+"lexical_sort_letter": "B",
+"status": "available",
+"count": 4,
+"initial_children": [
+{
+"id": "p03gjjsv",
+"live": false,
+"type": "episode",
+"title": "Babi Ni",
+"images": {
+"type": "image",
+"standard": "https://ichef.bbci.co.uk/images/ic/{recipe}/p03hbqsc.jpg"
+},
+"signed": false,
+"status": "available",
+"tleo_id": "p03db8kh",
+"guidance": false,
+"subtitle": "Pwyso a Mesur",
+"synopses": {
+"large": "Heddiw, mae babi Eos yn cael ei phwyso a'i mesur gan yr Ymwelydd Iechyd i weld faint mae hi wedi'i dyfu. Baby Eos is weighed and measured by the Health Visitor to see how much she's grown.",
+"small": "Heddiw, mae babi Eos yn cael ei phwyso a'i mesur gan yr Ymwelydd Iechyd i weld faint ma...",
+"medium": "Heddiw, mae babi Eos yn cael ei phwyso a'i mesur gan yr Ymwelydd Iechyd i weld faint mae hi wedi'i dyfu. Baby Eos is weighed and measured by the Health Visitor to see how much s..."
+},
+"versions": [
+{
+"hd": false,
+"id": "p03gjjsz",
+"kind": "original",
+"type": "version",
+"download": true,
+"duration": {
+"text": "7 mins",
+"value": "PT7M19S"
+},
+"availability": {
+"end": "2017-01-15T16:10:00Z",
+"start": "2016-12-16T16:10:00Z",
+"remaining": {
+"text": "Available for 25 days"
+}
+},
+"first_broadcast": "5 Feb 2016"
+}
+],
+"parent_id": "p03db8kh",
+"suppliers": [],
+"tleo_type": "series",
+"categories": [
+"wales"
+],
+"has_credits": false,
+"master_brand": {
+"id": "s4cpbs",
+"titles": {
+"large": "S4C",
+"small": "S4C",
+"medium": "S4C"
+},
+"attribution": "s4c"
+},
+"release_date": "5 Feb 2016",
+"related_links": [],
+"original_title": "Pwyso a Mesur",
+"audio_described": false,
+"requires_sign_in": false,
+"release_date_time": "2016-02-05T00:00:00.000Z",
+"lexical_sort_letter": "B",
+"requires_tv_licence": false
+}
+]
+},
+{
+"id": "b01mtnrq",
+"type": "programme_large",
+"title": "Baby Jake",
+"images": {
+"type": "image",
+"standard": "https://ichef.bbci.co.uk/images/ic/{recipe}/p025z1jg.jpg"
+},
+"labels": {
+"category": "CBeebies"
+},
+"synopses": {
+"small": "Series featuring Baby Jake, who giggles and gurgles his way through enchanting adventures.",
+"medium": "Series which mixes live action and animation, featuring the magical Baby Jake, who giggles and gurgles his way through enchanting adventures."
+},
+"suppliers": [
+{
+"id": "bbc_store",
+"title": "BBC Store"
+}
+],
+"tleo_type": "brand",
+"categories": [
+"cbeebies"
+],
+"master_brand": {
+"id": "cbeebies",
+"titles": {
+"large": "CBeebies",
+"small": "CBeebies",
+"medium": "CBeebies"
+},
+"ident_id": "p00pvbng",
+"attribution": "cbeebies"
+},
+"lexical_sort_letter": "B",
+"status": "available",
+"count": 29,
+"initial_children": [
+{
+"id": "b01pjh2q",
+"live": false,
+"type": "episode",
+"title": "Baby Jake",
+"images": {
+"type": "image",
+"standard": "https://ichef.bbci.co.uk/images/ic/{recipe}/p03n5rcf.jpg"
+},
+"labels": {
+"category": "CBeebies"
+},
+"signed": false,
+"status": "available",
+"tleo_id": "b01mtnrq",
+"guidance": false,
+"subtitle": "Series 2: 26. Baby Jake Loves Christmas",
+"synopses": {
+"small": "Baby Jake and Pengy Quin go on a spectacular Christmas adventure with their friends.",
+"medium": "The adventures of magical Baby Jake and friends. Baby Jake and Pengy Quin go on a spectacular Christmas adventure with all of their friends."
+},
+"versions": [
+{
+"hd": true,
+"id": "b01pjh1g",
+"kind": "original",
+"type": "version",
+"download": true,
+"duration": {
+"text": "11 mins",
+"value": "PT11M"
+},
+"availability": {
+"end": "2017-01-18T06:30:00Z",
+"start": "2016-12-12T06:30:00Z",
+"remaining": {
+"text": "Available for 28 days"
+}
+},
+"first_broadcast": "4:50pm 17 Dec 2012"
+}
+],
+"parent_id": "b01mtnsk",
+"suppliers": [
+{
+"id": "bbc_store",
+"title": "BBC Store"
+}
+],
+"tleo_type": "brand",
+"categories": [
+"cbeebies"
+],
+"has_credits": true,
+"master_brand": {
+"id": "cbeebies",
+"titles": {
+"large": "CBeebies",
+"small": "CBeebies",
+"medium": "CBeebies"
+},
+"ident_id": "p00pvbng",
+"attribution": "cbeebies"
+},
+"release_date": "17 Dec 2012",
+"related_links": [],
+"next_broadcast": {
+"channel_title": "CBeebies",
+"scheduled_start": "2016-12-24T06:00:00.000Z"
+},
+"original_title": "Baby Jake Loves Christmas",
+"audio_described": false,
+"parent_position": 26,
+"requires_sign_in": false,
+"release_date_time": "2012-12-17T00:00:00.000Z",
+"lexical_sort_letter": "B",
+"requires_tv_licence": true
+}
+]
+},
+{
+"id": "p03pl75v",
+"type": "programme_large",
+"title": "Babymetal: Wembley to Tokyo",
+"images": {
+"type": "image",
+"standard": "https://ichef.bbci.co.uk/images/ic/{recipe}/p03scrl5.jpg"
+},
+"labels": {
+"category": "Entertainment"
+},
+"synopses": {
+"large": "Japanese culture is all around us, from games to movies, comic books to fashion magazines and it’s something that’s fascinated Dev since he was a kid. The biggest cultural export from Japan in recent years has been the phenomenal rise of Babymetal; 3 school age girls fusing Metal with J-Pop, who recently performed a sold out concert in front of 12,000 fans at Wembley Arena.\n\n\n\nDev heads to Tokyo to learn more about the pop-culture that’s spawned the band. He enters the world of traditional J-Pop idols (including Katy Perry endorsed Kyary Pamyu Pamyu), explores the Japanese rock scene (with Crossfaith), learns about kawaii fashion in Harajuku (Tokyo’s equivalent to Camden Market) and has a wild karaoke night with a band called Ladybaby.",
+"small": "Dev heads to Tokyo to investigate the phenomenal rise of Japanese band Babymetal",
+"medium": "Dev heads to Tokyo to investigate the phenomenal rise of Japanese rock band Babymetal and to uncover the pop-culture scene that gave rise to the group."
+},
+"suppliers": [],
+"tleo_type": "episode",
+"categories": [
+"entertainment",
+"music"
+],
+"master_brand": {
+"id": "bbc_radio_one",
+"titles": {
+"large": "BBC Radio 1",
+"small": "BBC Radio 1",
+"medium": "BBC Radio 1"
+},
+"attribution": "bbc_radio_one"
+},
+"lexical_sort_letter": "B",
+"status": "available",
+"count": 1,
+"initial_children": [
+{
+"id": "p03pl75v",
+"live": false,
+"type": "episode",
+"title": "Babymetal: Wembley to Tokyo",
+"images": {
+"type": "image",
+"standard": "https://ichef.bbci.co.uk/images/ic/{recipe}/p03scrl5.jpg"
+},
+"labels": {
+"category": "Entertainment"
+},
+"signed": false,
+"status": "available",
+"tleo_id": "p03pl75v",
+"guidance": false,
+"synopses": {
+"large": "Japanese culture is all around us, from games to movies, comic books to fashion magazines and it’s something that’s fascinated Dev since he was a kid. The biggest cultural export from Japan in recent years has been the phenomenal rise of Babymetal; 3 school age girls fusing Metal with J-Pop, who recently performed a sold out concert in front of 12,000 fans at Wembley Arena.\n\n\n\nDev heads to Tokyo to learn more about the pop-culture that’s spawned the band. He enters the world of traditional J-Pop idols (including Katy Perry endorsed Kyary Pamyu Pamyu), explores the Japanese rock scene (with Crossfaith), learns about kawaii fashion in Harajuku (Tokyo’s equivalent to Camden Market) and has a wild karaoke night with a band called Ladybaby.",
+"small": "Dev heads to Tokyo to investigate the phenomenal rise of Japanese band Babymetal",
+"medium": "Dev heads to Tokyo to investigate the phenomenal rise of Japanese rock band Babymetal and to uncover the pop-culture scene that gave rise to the group."
+},
+"versions": [
+{
+"hd": true,
+"id": "p03pl7km",
+"kind": "original",
+"type": "version",
+"download": true,
+"duration": {
+"text": "24 mins",
+"value": "PT24M11S"
+},
+"availability": {
+"end": "2017-04-29T15:00:00Z",
+"start": "2016-07-27T15:34:40Z",
+"remaining": {
+"text": "Available for 4 months"
+}
+},
+"first_broadcast": "29 Apr 2016"
+}
+],
+"suppliers": [],
+"tleo_type": "episode",
+"categories": [
+"entertainment",
+"music"
+],
+"has_credits": true,
+"master_brand": {
+"id": "bbc_radio_one",
+"titles": {
+"large": "BBC Radio 1",
+"small": "BBC Radio 1",
+"medium": "BBC Radio 1"
+},
+"attribution": "bbc_radio_one"
+},
+"release_date": "29 Apr 2016",
+"related_links": [],
+"original_title": "Babymetal: Wembley to Tokyo",
+"audio_described": false,
+"requires_sign_in": true,
+"release_date_time": "2016-04-29T00:00:00.000Z",
+"lexical_sort_letter": "B",
+"requires_tv_licence": true
+}
+]
+},
+{
+"id": "p02b4jtq",
+"type": "programme_large",
+"title": "Bach a Mawr",
+"images": {
+"type": "image",
+"standard": "https://ichef.bbci.co.uk/images/ic/{recipe}/p02c7311.jpg"
+},
+"synopses": {
+"large": "Cyfres i blant am ddwy arth sy'n ffrindiau - un sy'n fach ac un sy'n fawr. Children's programme about two bears who are good friends - one is big and one is small! What are they up to today?",
+"small": "Cyfres i blant am ddwy arth sy'n ffrindiau - un sy'n fach ac un sy'n fawr. Children's p...",
+"medium": "Cyfres i blant am ddwy arth sy'n ffrindiau - un sy'n fach ac un sy'n fawr. Children's programme about two bears who are good friends - one is big and one is small! What are they..."
+},
+"suppliers": [],
+"tleo_type": "series",
+"categories": [
+"wales"
+],
+"master_brand": {
+"id": "s4cpbs",
+"titles": {
+"large": "S4C",
+"small": "S4C",
+"medium": "S4C"
+},
+"attribution": "s4c"
+},
+"lexical_sort_letter": "B",
+"status": "available",
+"count": 1,
+"initial_children": [
+{
+"id": "p03c05ly",
+"live": false,
+"type": "episode",
+"title": "Bach a Mawr",
+"images": {
+"type": "image",
+"standard": "https://ichef.bbci.co.uk/images/ic/{recipe}/p03lh6rv.jpg"
+},
+"labels": {
+"time": "Last Chance"
+},
+"signed": false,
+"status": "available",
+"tleo_id": "p02b4jtq",
+"guidance": false,
+"subtitle": "Pennod 24",
+"synopses": {
+"large": "It's a busy time in the house when Bach and Mawr are trapped inside by a snowfall. Mae Bach a Mawr yn gaeth i'r ty oherwydd eira mawr, ond mae'n amser prysur ar y ddau.",
+"small": "It's a busy time in the house when Bach and Mawr are trapped inside by a snowfall. Mae ...",
+"medium": "It's a busy time in the house when Bach and Mawr are trapped inside by a snowfall. Mae Bach a Mawr yn gaeth i'r ty oherwydd eira mawr, ond mae'n amser prysur ar y ddau."
+},
+"versions": [
+{
+"hd": false,
+"id": "p03c05m0",
+"kind": "original",
+"type": "version",
+"download": true,
+"duration": {
+"text": "11 mins",
+"value": "PT11M3S"
+},
+"availability": {
+"end": "2016-12-21T09:25:00Z",
+"start": "2016-12-14T09:25:00Z",
+"remaining": {
+"text": "Expires tomorrow 9:25am"
+}
+},
+"first_broadcast": "28 Oct 2010"
+}
+],
+"parent_id": "p02b4jtq",
+"suppliers": [],
+"tleo_type": "series",
+"categories": [
+"wales"
+],
+"has_credits": false,
+"master_brand": {
+"id": "s4cpbs",
+"titles": {
+"large": "S4C",
+"small": "S4C",
+"medium": "S4C"
+},
+"attribution": "s4c"
+},
+"release_date": "28 Oct 2010",
+"related_links": [],
+"original_title": "Pennod 24",
+"audio_described": false,
+"requires_sign_in": false,
+"release_date_time": "2010-10-28T00:00:00.000Z",
+"lexical_sort_letter": "B",
+"requires_tv_licence": false
+}
+]
+},
+{
+"id": "b083xysq",
+"type": "programme_large",
+"title": "Back in Time for Brixton",
+"images": {
+"type": "image",
+"standard": "https://ichef.bbci.co.uk/images/ic/{recipe}/p04gb63f.jpg"
+},
+"labels": {
+"category": "History"
+},
+"synopses": {
+"small": "A family experiences what life was like for the first Caribbean immigrants to Britain.",
+"medium": "Documentary following a family who give up their modern lives for one summer to experience what life was like for Caribbeans who immigrated to Britain in the postwar period."
+},
+"suppliers": [
+{
+"id": "bbc_store",
+"title": "BBC Store"
+}
+],
+"tleo_type": "series",
+"categories": [
+"documentaries-history",
+"documentaries-life-stories",
+"documentaries",
+"history"
+],
+"master_brand": {
+"id": "bbc_two",
+"titles": {
+"large": "BBC Two",
+"small": "BBC Two",
+"medium": "BBC Two"
+},
+"ident_id": "p0393z1f",
+"attribution": "bbc_two"
+},
+"lexical_sort_letter": "B",
+"status": "available",
+"count": 2,
+"initial_children": [
+{
+"id": "b084jgpf",
+"live": false,
+"type": "episode",
+"title": "Back in Time for Brixton",
+"images": {
+"type": "image",
+"standard": "https://ichef.bbci.co.uk/images/ic/{recipe}/p04hbr1b.jpg"
+},
+"labels": {
+"category": "History"
+},
+"signed": false,
+"status": "available",
+"tleo_id": "b083xysq",
+"guidance": false,
+"subtitle": "Episode 2",
+"synopses": {
+"large": "In episode two, the Irwin family leave the 60s behind to enter the 70s and go on to discover how a new generation of black Britons forged their way through the next three decades of British history. The family are guided by presenter Giles Coren and social historian Emma Dabiri, who introduce them to the first house they will own and the events of the time. In 1976, the family bat an over with cricketing legend Sir Clive Lloyd and learn about the famous cricket tour in which Sir Clive led West Indies to victory.\n\nMoving forward to the 1980s, the Irwins reflect on the Brixton Riots, Lovers Rock star Janet Kay brings a gift to the Irwin's home and the family join her in a sing-along. To see out the decade, daughters Breanne and Tiana invite their friends along to experience a typical party in 1989 style with DJ and producer Jazzie B.\n\nFinally, the family experience the Notting Hill Carnival in 1999 as they reflect on what they have learnt from their time-travelling experience.",
+"small": "A family learn how a new generation of black Britons forged their way through the 70s-90s.",
+"medium": "Documentary following a family who give up their modern lives for one summer. The Irwins learn how a new generation of black Britons forged their way through the 70s, 80s and 90s.",
+"editorial": "The Irwins are transported through the decades to meet past generations of black Britons."
+},
+"versions": [
+{
+"hd": true,
+"id": "b084jfzw",
+"kind": "original",
+"type": "version",
+"download": true,
+"duration": {
+"text": "59 mins",
+"value": "PT59M"
+},
+"availability": {
+"end": "2017-01-06T01:35:00Z",
+"start": "2016-11-28T22:00:00Z",
+"remaining": {
+"text": "Available for 16 days"
+}
+},
+"credits_start": 3513,
+"first_broadcast": "9pm 28 Nov 2016"
+},
+{
+"hd": false,
+"id": "p04j9ltk",
+"kind": "audio-described",
+"type": "version",
+"download": false,
+"duration": {
+"text": "59 mins",
+"value": "PT59M"
+},
+"availability": {
+"end": "2017-01-06T01:35:00Z",
+"start": "2016-11-28T22:40:22Z",
+"remaining": {
+"text": "Available for 16 days"
+}
+},
+"first_broadcast": "28 Nov 2016"
+}
+],
+"parent_id": "b083xysq",
+"suppliers": [
+{
+"id": "bbc_store",
+"title": "BBC Store"
+}
+],
+"tleo_type": "series",
+"categories": [
+"audio-described",
+"documentaries-history",
+"documentaries-life-stories",
+"documentaries",
+"history"
+],
+"has_credits": true,
+"master_brand": {
+"id": "bbc_two",
+"titles": {
+"large": "BBC Two",
+"small": "BBC Two",
+"medium": "BBC Two"
+},
+"ident_id": "p0393z1f",
+"attribution": "bbc_two"
+},
+"release_date": "28 Nov 2016",
+"related_links": [],
+"next_broadcast": {
+"channel_title": "BBC Two",
+"scheduled_start": "2016-12-24T02:30:00.000Z"
+},
+"original_title": "Episode 2",
+"audio_described": true,
+"parent_position": 2,
+"requires_sign_in": true,
+"release_date_time": "2016-11-28T00:00:00.000Z",
+"editorial_subtitle": "2/2 From the 70s to the 90s",
+"lexical_sort_letter": "B",
+"requires_tv_licence": true
+}
+]
+},
+{
+"id": "p01djw5m",
+"type": "programme_large",
+"title": "Bad Education",
+"images": {
+"type": "image",
+"standard": "https://ichef.bbci.co.uk/images/ic/{recipe}/p024qb8d.jpg"
+},
+"labels": {
+"category": "Comedy"
+},
+"synopses": {
+"small": "Comedy series about a teacher who is a bigger kid than the kids he teaches.",
+"medium": "Comedy series about a teacher who is a bigger kid than the kids he teaches."
+},
+"suppliers": [],
+"tleo_type": "brand",
+"categories": [
+"comedy-sitcoms",
+"comedy"
+],
+"master_brand": {
+"id": "bbc_three",
+"titles": {
+"large": "BBC Three",
+"small": "BBC Three",
+"medium": "BBC Three"
+},
+"ident_id": "p03bhqhy",
+"attribution": "bbc_three"
+},
+"lexical_sort_letter": "B",
+"status": "available",
+"count": 7,
+"initial_children": [
+{
+"id": "b03m80h5",
+"live": false,
+"type": "episode",
+"title": "Bad Education",
+"images": {
+"type": "image",
+"standard": "https://ichef.bbci.co.uk/images/ic/{recipe}/p01n2p2g.jpg"
+},
+"labels": {
+"category": "Comedy",
+"editorial": "Box Set"
+},
+"signed": false,
+"status": "available",
+"tleo_id": "p01djw5m",
+"guidance": true,
+"subtitle": "Christmas Special",
+"synopses": {
+"large": "It is time for the Abbey Grove Christmas play and with Miss Pickwell no longer around Mr Fraser decides Alfie is the obvious replacement to direct this year's production. But with the class undecided about whether to put on the Nutcracker or Robocop, will Alfie's decision to write and direct a plot mash-up of Robocracker and casting school bully Grayson as co-lead prove successful? \n\nMitchell decides to do something lovely for Alfie and invite his estranged mother to the play, but will Mr Fraser and Mitchell come up with a good enough reason to lure her over from Spain with her new husband Javier? And will Miss Gulliver manage to persuade Alfie and his class to volunteer at the soup kitchen where a Scottish tramp makes quite an impression?",
+"small": "Mr Fraser decides Alfie is the right man to direct the Abbey Grove Christmas play.",
+"medium": "School-based sitcom. It is time for the Abbey Grove Christmas play and with Miss Pickwell no longer around Mr Fraser decides Alfie is the obvious replacement to direct.",
+"editorial": "Mr Fraser decides Alfie is the right man to direct the Christmas play. For some reason."
+},
+"versions": [
+{
+"hd": true,
+"id": "b03m7zv0",
+"kind": "original",
+"type": "version",
+"download": true,
+"duration": {
+"text": "30 mins",
+"value": "PT30M"
+},
+"guidance": {
+"id": "L1",
+"text": {
+"large": "Contains some strong language.",
+"small": "Has guidance",
+"medium": "Contains some strong language."
+}
+},
+"availability": {
+"end": "2017-02-14T08:00:00Z",
+"start": "2016-12-16T08:00:00Z",
+"remaining": {
+"text": "Available for 1 month"
+}
+},
+"credits_start": 1708,
+"first_broadcast": "10pm 17 Dec 2013"
+}
+],
+"parent_id": "p01djw5m",
+"suppliers": [],
+"tleo_type": "brand",
+"categories": [
+"comedy-sitcoms",
+"comedy"
+],
+"has_credits": true,
+"master_brand": {
+"id": "bbc_three",
+"titles": {
+"large": "BBC Three",
+"small": "BBC Three",
+"medium": "BBC Three"
+},
+"ident_id": "p03bhqhy",
+"attribution": "bbc_three"
+},
+"release_date": "17 Dec 2013",
+"related_links": [
+{
+"id": "p03pk2sm",
+"url": "http://www.bbc.co.uk/bbcthree/tag/comedy",
+"kind": "priority_content",
+"type": "link",
+"title": "More comedy from BBC Three"
+}
+],
+"original_title": "Christmas Special",
+"audio_described": false,
+"parent_position": 3,
+"requires_sign_in": true,
+"release_date_time": "2013-12-17T00:00:00.000Z",
+"editorial_subtitle": "Christmas Special. Alfie channels his inner theatre director",
+"lexical_sort_letter": "B",
+"requires_tv_licence": true
+}
+]
+},
+{
+"id": "b00j186b",
+"type": "programme_large",
+"title": "Bailtean Alba",
+"images": {
+"type": "image",
+"standard": "https://ichef.bbci.co.uk/images/ic/{recipe}/p01l53r8.jpg"
+},
+"labels": {
+"category": "History"
+},
+"synopses": {
+"small": "Series looking at the history of Scotland's towns",
+"medium": "Sreath bhon tasglann ag aithris air eachdraidh bailtean na h-Alba. Series looking at the history of Scotland's towns"
+},
+"suppliers": [],
+"tleo_type": "series",
+"categories": [
+"history",
+"scotland"
+],
+"master_brand": {
+"id": "bbc_alba",
+"titles": {
+"large": "BBC ALBA",
+"small": "BBC ALBA",
+"medium": "BBC ALBA"
+},
+"ident_id": "p00pvbgm",
+"attribution": "bbc_alba"
+},
+"lexical_sort_letter": "B",
+"status": "available",
+"count": 2,
+"initial_children": [
+{
+"id": "b00jsrht",
+"live": false,
+"type": "episode",
+"title": "Bailtean Alba",
+"images": {
+"type": "image",
+"standard": "https://ichef.bbci.co.uk/images/ic/{recipe}/p01h2myl.jpg"
+},
+"labels": {
+"category": "History"
+},
+"signed": false,
+"status": "available",
+"tleo_id": "b00j186b",
+"guidance": false,
+"subtitle": "Episode 6",
+"synopses": {
+"small": "Sreath bhon tasglann ag aithris air eachdraidh bailtean na h-Alba. Scotland's towns.",
+"medium": "Sreath bhon tasglann ag aithris air eachdraidh bailtean na h-Alba. Series looking at the history of Scotland's towns."
+},
+"versions": [
+{
+"hd": false,
+"id": "b00jsq93",
+"kind": "original",
+"type": "version",
+"download": true,
+"duration": {
+"text": "25 mins",
+"value": "PT25M"
+},
+"availability": {
+"end": "2016-12-31T19:25:00Z",
+"start": "2016-11-29T20:03:23Z",
+"remaining": {
+"text": "Available for 10 days"
+}
+},
+"first_broadcast": "6 Apr 2009"
+},
+{
+"hd": false,
+"id": "b00jsq93",
+"kind": "open-subtitled",
+"type": "version",
+"download": true,
+"duration": {
+"text": "25 mins",
+"value": "PT25M"
+},
+"availability": {
+"end": "2016-12-31T19:25:00Z",
+"start": "2016-11-29T20:03:23Z",
+"remaining": {
+"text": "Available for 10 days"
+}
+},
+"first_broadcast": "6 Apr 2009"
+}
+],
+"parent_id": "b00j186b",
+"suppliers": [],
+"tleo_type": "series",
+"categories": [
+"history",
+"scotland"
+],
+"has_credits": false,
+"master_brand": {
+"id": "bbc_alba",
+"titles": {
+"large": "BBC ALBA",
+"small": "BBC ALBA",
+"medium": "BBC ALBA"
+},
+"ident_id": "p00pvbgm",
+"attribution": "bbc_alba"
+},
+"release_date": "6 Apr 2009",
+"related_links": [],
+"original_title": "Episode 6",
+"audio_described": false,
+"parent_position": 6,
+"requires_sign_in": true,
+"release_date_time": "2009-04-06T00:00:00.000Z",
+"lexical_sort_letter": "B",
+"requires_tv_licence": true
+}
+]
+},
+{
+"id": "b04vkb2l",
+"type": "programme_large",
+"title": "Balaich na h-Airde",
+"images": {
+"type": "image",
+"standard": "https://ichef.bbci.co.uk/images/ic/{recipe}/p02f02rv.jpg"
+},
+"labels": {
+"category": "Documentary"
+},
+"synopses": {
+"large": "The Smith 'boys of Aird' have each made their mark. This programme considers their enviable talents and hears them reflect on life growing up in the village of Aird Dell, Lewis. Better known as \"Dòmhnall Ruadh\", Donald Smith was a leading player in the Gaelic theatre movement of the 1970s and '80s. He is known too through television dramas such as Machair and Gruth is Uachdar.\n\nNorman Smith won the Mod Gold Medal for traditional singing in 2003. The programme looks back at his career in the Merchant Navy, and observes his joy at becoming a grandfather. John Smith directs many of the BBC's biggest hits from Hogmanay Live to The Chelsea Flower Show. Some familiar faces reveal what it's like to work with him, live.\n\nYoungest brother Coinneach \"Ruadh\" Smith was presenter of Radio nan Gàidheal's music show Caithris na h-Oidhche, earning a special place in the hearts of teenagers listeners. In 1985, Coinneach was tragically killed in a road accident.\n\nHere, his brothers speak movingly of their loss. With a new generation of Smiths now also enjoying success, this moving film celebrates one family's outstanding contribution to the Gaelic community.",
+"small": "The remarkable achievements of four brothers from Ness, Isle of Lewis.",
+"medium": "Documentary telling the story of four brothers from Lewis and their achievements in broadcasting, writing, acting and singing."
+},
+"suppliers": [],
+"tleo_type": "episode",
+"categories": [
+"documentaries-life-stories",
+"documentaries",
+"scotland"
+],
+"master_brand": {
+"id": "bbc_alba",
+"titles": {
+"large": "BBC ALBA",
+"small": "BBC ALBA",
+"medium": "BBC ALBA"
+},
+"ident_id": "p00pvbgm",
+"attribution": "bbc_alba"
+},
+"lexical_sort_letter": "B",
+"status": "available",
+"count": 1,
+"initial_children": [
+{
+"id": "b04vkb2l",
+"live": false,
+"type": "episode",
+"title": "Balaich na h-Airde",
+"images": {
+"type": "image",
+"standard": "https://ichef.bbci.co.uk/images/ic/{recipe}/p02f02rv.jpg"
+},
+"labels": {
+"category": "Documentary"
+},
+"signed": false,
+"status": "available",
+"tleo_id": "b04vkb2l",
+"guidance": false,
+"synopses": {
+"large": "The Smith 'boys of Aird' have each made their mark. This programme considers their enviable talents and hears them reflect on life growing up in the village of Aird Dell, Lewis. Better known as \"Dòmhnall Ruadh\", Donald Smith was a leading player in the Gaelic theatre movement of the 1970s and '80s. He is known too through television dramas such as Machair and Gruth is Uachdar.\n\nNorman Smith won the Mod Gold Medal for traditional singing in 2003. The programme looks back at his career in the Merchant Navy, and observes his joy at becoming a grandfather. John Smith directs many of the BBC's biggest hits from Hogmanay Live to The Chelsea Flower Show. Some familiar faces reveal what it's like to work with him, live.\n\nYoungest brother Coinneach \"Ruadh\" Smith was presenter of Radio nan Gàidheal's music show Caithris na h-Oidhche, earning a special place in the hearts of teenagers listeners. In 1985, Coinneach was tragically killed in a road accident.\n\nHere, his brothers speak movingly of their loss. With a new generation of Smiths now also enjoying success, this moving film celebrates one family's outstanding contribution to the Gaelic community.",
+"small": "The remarkable achievements of four brothers from Ness, Isle of Lewis.",
+"medium": "Documentary telling the story of four brothers from Lewis and their achievements in broadcasting, writing, acting and singing."
+},
+"versions": [
+{
+"hd": false,
+"id": "b04vk8xr",
+"kind": "original",
+"type": "version",
+"download": true,
+"duration": {
+"text": "60 mins",
+"value": "PT1H"
+},
+"availability": {
+"end": "2017-01-11T23:30:00Z",
+"start": "2016-12-07T23:34:43Z",
+"remaining": {
+"text": "Available for 22 days"
+}
+},
+"first_broadcast": "31 Dec 2014"
+},
+{
+"hd": false,
+"id": "b04vk8xr",
+"kind": "open-subtitled",
+"type": "version",
+"download": true,
+"duration": {
+"text": "60 mins",
+"value": "PT1H"
+},
+"availability": {
+"end": "2017-01-11T23:30:00Z",
+"start": "2016-12-07T23:34:43Z",
+"remaining": {
+"text": "Available for 22 days"
+}
+},
+"first_broadcast": "31 Dec 2014"
+}
+],
+"suppliers": [],
+"tleo_type": "episode",
+"categories": [
+"documentaries-life-stories",
+"documentaries",
+"scotland"
+],
+"has_credits": false,
+"master_brand": {
+"id": "bbc_alba",
+"titles": {
+"large": "BBC ALBA",
+"small": "BBC ALBA",
+"medium": "BBC ALBA"
+},
+"ident_id": "p00pvbgm",
+"attribution": "bbc_alba"
+},
+"release_date": "31 Dec 2014",
+"related_links": [],
+"original_title": "Balaich na h-Airde",
+"audio_described": false,
+"requires_sign_in": true,
+"release_date_time": "2014-12-31T00:00:00.000Z",
+"lexical_sort_letter": "B",
+"requires_tv_licence": true
+}
+]
+},
+{
+"id": "b0834qvd",
+"type": "programme_large",
+"title": "Balletboyz - Young Men",
+"images": {
+"type": "image",
+"standard": "https://ichef.bbci.co.uk/images/ic/{recipe}/p04f4mlw.jpg"
+},
+"labels": {
+"category": "Drama"
+},
+"synopses": {
+"large": "A group of young men brought together by the indiscriminate brutality of war struggle to maintain their humanity in an unending cycle of combat and death. A potent combination of music and choreography, this film without words is an immersive emotional journey into the reality facing young men at the extremes of human experience.\n\nThese young men succumb to the terror of their situation in a myriad of ways. The ruthless, indiscriminate brutality of war takes its mental and bodily toll on these comrades, as they struggle to survive one day's destruction, only to wake to another's mortal threats.\n\nBased on the hugely successful stage production of the same name that premiered at Sadler's Wells Theatre, London, in 2015, it is choreographed by Iván Pérez with a commissioned score by composer Keaton Henson.",
+"small": "Dance film about a group of young men brought together by the brutality of war.",
+"medium": "Feature-length dance film. A group of young men brought together by the brutality of war struggle to maintain their humanity in an unending cycle of combat and death."
+},
+"suppliers": [
+{
+"id": "bbc_store",
+"title": "BBC Store"
+}
+],
+"tleo_type": "episode",
+"categories": [
+"drama-and-soaps"
+],
+"master_brand": {
+"id": "bbc_two",
+"titles": {
+"large": "BBC Two",
+"small": "BBC Two",
+"medium": "BBC Two"
+},
+"ident_id": "p0393z1f",
+"attribution": "bbc_two"
+},
+"lexical_sort_letter": "B",
+"status": "available",
+"count": 1,
+"initial_children": [
+{
+"id": "b0834qvd",
+"live": false,
+"type": "episode",
+"title": "Balletboyz - Young Men",
+"images": {
+"type": "image",
+"standard": "https://ichef.bbci.co.uk/images/ic/{recipe}/p04f4mlw.jpg"
+},
+"labels": {
+"category": "Drama"
+},
+"signed": false,
+"status": "available",
+"tleo_id": "b0834qvd",
+"guidance": false,
+"synopses": {
+"large": "A group of young men brought together by the indiscriminate brutality of war struggle to maintain their humanity in an unending cycle of combat and death. A potent combination of music and choreography, this film without words is an immersive emotional journey into the reality facing young men at the extremes of human experience.\n\nThese young men succumb to the terror of their situation in a myriad of ways. The ruthless, indiscriminate brutality of war takes its mental and bodily toll on these comrades, as they struggle to survive one day's destruction, only to wake to another's mortal threats.\n\nBased on the hugely successful stage production of the same name that premiered at Sadler's Wells Theatre, London, in 2015, it is choreographed by Iván Pérez with a commissioned score by composer Keaton Henson.",
+"small": "Dance film about a group of young men brought together by the brutality of war.",
+"medium": "Feature-length dance film. A group of young men brought together by the brutality of war struggle to maintain their humanity in an unending cycle of combat and death.",
+"editorial": "An emotional journey into the reality facing young men in combat."
+},
+"versions": [
+{
+"hd": true,
+"id": "b0834qs8",
+"kind": "original",
+"type": "version",
+"download": true,
+"duration": {
+"text": "59 mins",
+"value": "PT59M"
+},
+"availability": {
+"end": "2017-01-17T01:20:00Z",
+"start": "2016-12-18T01:20:00Z",
+"remaining": {
+"text": "Available for 27 days"
+}
+},
+"first_broadcast": "8:30pm 12 Nov 2016"
+}
+],
+"suppliers": [
+{
+"id": "bbc_store",
+"title": "BBC Store"
+}
+],
+"tleo_type": "episode",
+"categories": [
+"drama-and-soaps"
+],
+"has_credits": true,
+"master_brand": {
+"id": "bbc_two",
+"titles": {
+"large": "BBC Two",
+"small": "BBC Two",
+"medium": "BBC Two"
+},
+"ident_id": "p0393z1f",
+"attribution": "bbc_two"
+},
+"release_date": "12 Nov 2016",
+"related_links": [],
+"original_title": "Balletboyz - Young Men",
+"audio_described": false,
+"requires_sign_in": true,
+"release_date_time": "2016-11-12T00:00:00.000Z",
+"editorial_subtitle": "A struggle to survive the destruction of war, told in dance",
+"lexical_sort_letter": "B",
+"requires_tv_licence": true
+}
+]
+},
+{
+"id": "b00mqg2c",
+"type": "programme_large",
+"title": "Balmoral",
+"images": {
+"type": "image",
+"standard": "https://ichef.bbci.co.uk/images/ic/{recipe}/p01gjqpt.jpg"
+},
+"labels": {
+"category": "History"
+},
+"synopses": {
+"large": "Documentary telling the story of Balmoral, the royal family's most private residence. For over 150 years this Scottish castle has been home to royal traditions of picnics, stag hunting and kilts. From prime ministers to Princess Diana, life at this tartan-bound holiday home has not appealed to everyone. \n\nBut there is another story of Balmoral, of how the royal family has played a role in shaping modern Scotland and how Scotland has shaped the royal family. Queen Victoria's adoption of Highland symbols, from tartan to bagpipes, helped create a new image for Scotland. Her values, too, helped strengthen the union between Scotland and England. Ever since, Balmoral has been a place that reflects the very essence of the royal family.",
+"small": "Documentary telling the story of Balmoral, the royal family's most private residence.",
+"medium": "Documentary telling the story of Balmoral, the royal family's most private residence, and how the royal family has played a role in shaping modern Scotland and vice versa."
+},
+"suppliers": [],
+"tleo_type": "episode",
+"categories": [
+"documentaries-history",
+"documentaries",
+"history"
+],
+"master_brand": {
+"id": "bbc_four",
+"titles": {
+"large": "BBC Four",
+"small": "BBC Four",
+"medium": "BBC Four"
+},
+"ident_id": "p03rqj11",
+"attribution": "bbc_four"
+},
+"lexical_sort_letter": "B",
+"status": "available",
+"count": 1,
+"initial_children": [
+{
+"id": "b00mqg2c",
+"live": false,
+"type": "episode",
+"title": "Balmoral",
+"images": {
+"type": "image",
+"standard": "https://ichef.bbci.co.uk/images/ic/{recipe}/p01gjqpt.jpg"
+},
+"labels": {
+"category": "History"
+},
+"signed": false,
+"status": "available",
+"tleo_id": "b00mqg2c",
+"guidance": false,
+"synopses": {
+"large": "Documentary telling the story of Balmoral, the royal family's most private residence. For over 150 years this Scottish castle has been home to royal traditions of picnics, stag hunting and kilts. From prime ministers to Princess Diana, life at this tartan-bound holiday home has not appealed to everyone. \n\nBut there is another story of Balmoral, of how the royal family has played a role in shaping modern Scotland and how Scotland has shaped the royal family. Queen Victoria's adoption of Highland symbols, from tartan to bagpipes, helped create a new image for Scotland. Her values, too, helped strengthen the union between Scotland and England. Ever since, Balmoral has been a place that reflects the very essence of the royal family.",
+"small": "Documentary telling the story of Balmoral, the royal family's most private residence.",
+"medium": "Documentary telling the story of Balmoral, the royal family's most private residence, and how the royal family has played a role in shaping modern Scotland and vice versa."
+},
+"versions": [
+{
+"hd": false,
+"id": "b00mqfdh",
+"kind": "original",
+"type": "version",
+"download": true,
+"duration": {
+"text": "60 mins",
+"value": "PT1H"
+},
+"availability": {
+"end": "2017-01-19T00:00:00Z",
+"start": "2016-12-20T00:00:00Z",
+"remaining": {
+"text": "Available for 29 days"
+}
+},
+"first_broadcast": "9pm 13 Sep 2009"
+},
+{
+"hd": false,
+"id": "p03t3d84",
+"kind": "audio-described",
+"type": "version",
+"download": false,
+"duration": {
+"text": "60 mins",
+"value": "PT1H"
+},
+"availability": {
+"end": "2017-01-19T00:00:00Z",
+"start": "2016-12-20T00:42:53Z",
+"remaining": {
+"text": "Available for 29 days"
+}
+},
+"first_broadcast": "13 Sep 2009"
+}
+],
+"suppliers": [],
+"tleo_type": "episode",
+"categories": [
+"audio-described",
+"documentaries-history",
+"documentaries",
+"history"
+],
+"has_credits": false,
+"master_brand": {
+"id": "bbc_four",
+"titles": {
+"large": "BBC Four",
+"small": "BBC Four",
+"medium": "BBC Four"
+},
+"ident_id": "p03rqj11",
+"attribution": "bbc_four"
+},
+"release_date": "13 Sep 2009",
+"related_links": [],
+"original_title": "Balmoral",
+"audio_described": true,
+"requires_sign_in": true,
+"release_date_time": "2009-09-13T00:00:00.000Z",
+"lexical_sort_letter": "B",
+"requires_tv_licence": true
+}
+]
+},
+{
+"id": "p013h27r",
+"type": "programme_large",
+"title": "Barbara Hepworth",
+"images": {
+"type": "image",
+"standard": "https://ichef.bbci.co.uk/images/ic/{recipe}/p025lz2c.jpg"
+},
+"labels": {
+"category": "Documentary"
+},
+"synopses": {
+"large": "A contemporary of Henry Moore, Yorkshire-born Barbara Hepworth has made Cornwall her home. This film by John Read examines how the Cornish landscapes have influenced Hepworth's work, and the artist takes us through the planning stages in the creation of her sculptures. (1961) ",
+"small": "A look at how Cornish landscapes have influenced sculptor Barbara Hepworth's work. (1961)",
+"medium": "This film examines how Cornish landscapes have influenced Barbara Hepworth's work, and the artist takes us through the planning stages in the creation of her sculptures. (1961)"
+},
+"suppliers": [],
+"tleo_type": "episode",
+"categories": [
+"arts",
+"documentaries-arts",
+"documentaries"
+],
+"master_brand": {
+"id": "bbc_webonly",
+"titles": {
+"large": "BBC",
+"small": "BBC",
+"medium": "BBC"
+},
+"attribution": "bbc"
+},
+"lexical_sort_letter": "B",
+"status": "available",
+"count": 1,
+"initial_children": [
+{
+"id": "p013h27r",
+"live": false,
+"type": "episode",
+"title": "Barbara Hepworth",
+"images": {
+"type": "image",
+"standard": "https://ichef.bbci.co.uk/images/ic/{recipe}/p025lz2c.jpg"
+},
+"labels": {
+"category": "Documentary",
+"editorial": "Archive"
+},
+"signed": false,
+"status": "available",
+"tleo_id": "p013h27r",
+"guidance": false,
+"synopses": {
+"large": "A contemporary of Henry Moore, Yorkshire-born Barbara Hepworth has made Cornwall her home. This film by John Read examines how the Cornish landscapes have influenced Hepworth's work, and the artist takes us through the planning stages in the creation of her sculptures. (1961) ",
+"small": "A look at how Cornish landscapes have influenced sculptor Barbara Hepworth's work. (1961)",
+"medium": "This film examines how Cornish landscapes have influenced Barbara Hepworth's work, and the artist takes us through the planning stages in the creation of her sculptures. (1961)"
+},
+"versions": [
+{
+"hd": false,
+"id": "p025ltqy",
+"kind": "iplayer-version",
+"type": "version",
+"download": false,
+"duration": {
+"text": "33 mins",
+"value": "PT33M"
+},
+"availability": {
+"start": "2014-09-08T11:00:00Z",
+"remaining": {
+"text": "Available for over a year"
+}
+},
+"first_broadcast": "17 Sep 1961"
+}
+],
+"suppliers": [],
+"tleo_type": "episode",
+"categories": [
+"archive",
+"arts",
+"documentaries-arts",
+"documentaries"
+],
+"has_credits": false,
+"master_brand": {
+"id": "bbc_webonly",
+"titles": {
+"large": "BBC",
+"small": "BBC",
+"medium": "BBC"
+},
+"attribution": "bbc"
+},
+"release_date": "17 Sep 1961",
+"related_links": [
+{
+"id": "p02691nv",
+"url": "http://www.bbc.co.uk/iplayer/group/p025z4rn",
+"kind": "priority_content",
+"type": "link",
+"title": "Abstract Art Collection"
+}
+],
+"original_title": "Barbara Hepworth",
+"audio_described": false,
+"requires_sign_in": true,
+"release_date_time": "1961-09-17T00:00:00.000Z",
+"lexical_sort_letter": "B",
+"requires_tv_licence": true
+}
+]
+},
+{
+"id": "b0864yh4",
+"type": "programme_large",
+"title": "The Barber of Seville from Glyndebourne",
+"images": {
+"type": "image",
+"standard": "https://ichef.bbci.co.uk/images/ic/{recipe}/p04kj4b0.jpg"
+},
+"labels": {
+"category": "Music"
+},
+"synopses": {
+"large": "Two hundred years after its premiere in Rome in 1816, Rossini's great comic opera The Barber of Seville took to the stage as part of the 2016 Glyndebourne Festival. The opera traces the efforts of clever Figaro to win his master, Count Almaviva, his chosen bride. But he meets his match in the crafty would-be bride Rosina, who is already plotting to escape her guardian Dr Bartolo.",
+"small": "Rossini's comic opera traces the efforts of Figaro to win his master his chosen bride.",
+"medium": "Rossini's great comic opera traces the efforts of clever Figaro to win his master, Count Almaviva, his chosen bride. But he meets his match in the crafty would-be bride Rosina."
+},
+"suppliers": [],
+"tleo_type": "episode",
+"categories": [
+"music"
+],
+"master_brand": {
+"id": "bbc_four",
+"titles": {
+"large": "BBC Four",
+"small": "BBC Four",
+"medium": "BBC Four"
+},
+"ident_id": "p03rqj11",
+"attribution": "bbc_four"
+},
+"lexical_sort_letter": "B",
+"status": "available",
+"count": 1,
+"initial_children": [
+{
+"id": "b0864yh4",
+"live": false,
+"type": "episode",
+"title": "The Barber of Seville from Glyndebourne",
+"images": {
+"type": "image",
+"standard": "https://ichef.bbci.co.uk/images/ic/{recipe}/p04kj4b0.jpg"
+},
+"labels": {
+"category": "Music"
+},
+"signed": false,
+"status": "available",
+"tleo_id": "b0864yh4",
+"guidance": false,
+"synopses": {
+"large": "Two hundred years after its premiere in Rome in 1816, Rossini's great comic opera The Barber of Seville took to the stage as part of the 2016 Glyndebourne Festival. The opera traces the efforts of clever Figaro to win his master, Count Almaviva, his chosen bride. But he meets his match in the crafty would-be bride Rosina, who is already plotting to escape her guardian Dr Bartolo.",
+"small": "Rossini's comic opera traces the efforts of Figaro to win his master his chosen bride.",
+"medium": "Rossini's great comic opera traces the efforts of clever Figaro to win his master, Count Almaviva, his chosen bride. But he meets his match in the crafty would-be bride Rosina."
+},
+"versions": [
+{
+"hd": true,
+"id": "b0864y8d",
+"kind": "original",
+"type": "version",
+"download": true,
+"duration": {
+"text": "165 mins",
+"value": "PT2H45M"
+},
+"availability": {
+"end": "2017-01-17T22:45:00Z",
+"start": "2016-12-18T22:45:00Z",
+"remaining": {
+"text": "Available for 28 days"
+}
+},
+"first_broadcast": "8pm 18 Dec 2016"
+}
+],
+"suppliers": [],
+"tleo_type": "episode",
+"categories": [
+"music"
+],
+"has_credits": true,
+"master_brand": {
+"id": "bbc_four",
+"titles": {
+"large": "BBC Four",
+"small": "BBC Four",
+"medium": "BBC Four"
+},
+"ident_id": "p03rqj11",
+"attribution": "bbc_four"
+},
+"release_date": "18 Dec 2016",
+"related_links": [
+{
+"id": "p04khsp5",
+"url": "http://www.bbc.co.uk/iplayer/episodes/b060cdrm",
+"kind": "priority_content",
+"type": "link",
+"title": "Buy more documentaries on opera"
+}
+],
+"original_title": "The Barber of Seville from Glyndebourne",
+"audio_described": false,
+"requires_sign_in": true,
+"release_date_time": "2016-12-18T00:00:00.000Z",
+"lexical_sort_letter": "B",
+"requires_tv_licence": true
+}
+]
+},
+{
+"id": "b006nb9z",
+"type": "programme_large",
+"title": "Bargain Hunt",
+"images": {
+"type": "image",
+"standard": "https://ichef.bbci.co.uk/images/ic/{recipe}/p03bqkvs.jpg"
+},
+"labels": {
+"category": "Entertainment"
+},
+"synopses": {
+"small": "Two teams of amateur collectors have an hour to acquire the best bargains with £300.",
+"medium": "Two teams of amateur collectors have an hour at an antiques fair in which to acquire the best bargains possible with £300."
+},
+"suppliers": [
+{
+"id": "bbc_store",
+"title": "BBC Store"
+}
+],
+"tleo_type": "brand",
+"categories": [
+"entertainment",
+"lifestyle"
+],
+"master_brand": {
+"id": "bbc_one",
+"titles": {
+"large": "BBC One",
+"small": "BBC One",
+"medium": "BBC One"
+},
+"ident_id": "p04ftjsf",
+"attribution": "bbc_one"
+},
+"lexical_sort_letter": "B",
+"status": "available",
+"count": 28,
+"initial_children": [
+{
+"id": "b0873xw1",
+"live": false,
+"type": "episode",
+"title": "Bargain Hunt",
+"images": {
+"type": "image",
+"standard": "https://ichef.bbci.co.uk/images/ic/{recipe}/p03bqkvs.jpg",
+"inherited_from": "brand"
+},
+"labels": {
+"category": "Entertainment"
+},
+"signed": false,
+"status": "available",
+"tleo_id": "b006nb9z",
+"guidance": false,
+"subtitle": "Series 42 and 43 Reversions: 7. Newark 7",
+"synopses": {
+"large": "Tim Wonnacott presents from Newark as experts Mark Stacey and Catherine Southon offer their expertise to two sets of red and blue teams as they try and spend a little to sell for a lot at auction. Tim visits Stoneleigh Abbey in Warwickshire to explore the spectacular plasterwork adorning the palatial west wing.",
+"small": "Tim Wonnacott presents from Newark with experts Mark Stacey and Catherine Southon.",
+"medium": "Tim Wonnacott presents from Newark as experts Mark Stacey and Catherine Southon offer their expertise to two sets of red and blue teams."
+},
+"versions": [
+{
+"hd": true,
+"id": "b0873xvr",
+"kind": "original",
+"type": "version",
+"download": true,
+"duration": {
+"text": "59 mins",
+"value": "PT59M"
+},
+"availability": {
+"end": "2017-01-16T15:15:00Z",
+"start": "2016-12-17T15:15:00Z",
+"remaining": {
+"text": "Available for 26 days"
+}
+},
+"first_broadcast": "2:15pm 17 Dec 2016"
+},
+{
+"hd": false,
+"id": "p04lrmw1",
+"kind": "audio-described",
+"type": "version",
+"download": false,
+"duration": {
+"text": "59 mins",
+"value": "PT59M"
+},
+"availability": {
+"end": "2017-01-16T15:15:00Z",
+"start": "2016-12-17T15:49:25Z",
+"remaining": {
+"text": "Available for 26 days"
+}
+},
+"first_broadcast": "17 Dec 2016"
+}
+],
+"parent_id": "b07tmslw",
+"suppliers": [],
+"tleo_type": "brand",
+"categories": [
+"audio-described",
+"entertainment",
+"lifestyle"
+],
+"has_credits": true,
+"master_brand": {
+"id": "bbc_one",
+"titles": {
+"large": "BBC One",
+"small": "BBC One",
+"medium": "BBC One"
+},
+"ident_id": "p04ftjsf",
+"attribution": "bbc_one"
+},
+"release_date": "17 Dec 2016",
+"related_links": [],
+"original_title": "Newark 7",
+"audio_described": true,
+"parent_position": 7,
+"requires_sign_in": true,
+"release_date_time": "2016-12-17T00:00:00.000Z",
+"lexical_sort_letter": "B",
+"requires_tv_licence": true
+}
+]
+},
+{
+"id": "p04gwxg7",
+"type": "programme_large",
+"title": "Barracuda",
+"images": {
+"type": "image",
+"standard": "https://ichef.bbci.co.uk/images/ic/{recipe}/p04ldlkz.jpg"
+},
+"labels": {
+"category": "Drama"
+},
+"synopses": {
+"large": "Melbourne 1996. The Golden Age of Australian swimming is beginning and a scholarship to an exclusive boys’ school brings the talented 16-year-old Danny Kelly one step closer to his ultimate goal of winning Olympic Gold.\n\n\n\nBased on the book by award-winning novelist Christos Tsiolkas, Barracuda is a moving story about identity, obsession, desire, the dizzy heights of success and the terrifying risk of failure.",
+"small": "Talented 16-year-old swimmer Danny Kelly wins a scholarship to an exclusive boys’ school.",
+"medium": "Melbourne 1996. The Golden Age of Australian swimming is beginning and a scholarship to an exclusive school brings Danny one step closer to his dream of winning Olympic Gold."
+},
+"suppliers": [],
+"tleo_type": "series",
+"categories": [
+"drama-and-soaps"
+],
+"master_brand": {
+"id": "bbc_three",
+"titles": {
+"large": "BBC Three",
+"small": "BBC Three",
+"medium": "BBC Three"
+},
+"ident_id": "p03bhqhy",
+"attribution": "bbc_three"
+},
+"lexical_sort_letter": "B",
+"status": "available",
+"count": 4,
+"initial_children": [
+{
+"id": "p04gx20m",
+"live": false,
+"type": "episode",
+"title": "Barracuda",
+"images": {
+"type": "image",
+"standard": "https://ichef.bbci.co.uk/images/ic/{recipe}/p04lj1c4.jpg"
+},
+"labels": {
+"category": "Drama",
+"editorial": "Box Set"
+},
+"signed": false,
+"status": "available",
+"tleo_id": "p04gwxg7",
+"guidance": true,
+"subtitle": "4. 2000",
+"synopses": {
+"large": "The consequences of Danny’s blinkered determination play out, as a moment of rage risks ending a fond friendship, threatening to derail his life forever.",
+"small": "The consequences of Danny’s blinkered determination play out.",
+"medium": "The consequences of Danny’s blinkered determination play out, as a moment of rage risks ending a fond friendship, threatening to derail his life forever."
+},
+"versions": [
+{
+"hd": true,
+"id": "p04lj5rx",
+"kind": "iplayer-version",
+"type": "version",
+"download": true,
+"duration": {
+"text": "57 mins",
+"value": "PT56M51S"
+},
+"guidance": {
+"id": "L2",
+"text": {
+"large": "Contains strong language.",
+"small": "Has guidance",
+"medium": "Contains strong language."
+}
+},
+"availability": {
+"end": "2017-04-16T08:06:00Z",
+"start": "2016-12-17T09:06:00Z",
+"remaining": {
+"text": "Available for 3 months"
+}
+},
+"first_broadcast": "17 Dec 2016"
+}
+],
+"parent_id": "p04gwxg7",
+"suppliers": [],
+"tleo_type": "series",
+"categories": [
+"drama-and-soaps"
+],
+"has_credits": false,
+"master_brand": {
+"id": "bbc_three",
+"titles": {
+"large": "BBC Three",
+"small": "BBC Three",
+"medium": "BBC Three"
+},
+"ident_id": "p03bhqhy",
+"attribution": "bbc_three"
+},
+"release_date": "17 Dec 2016",
+"related_links": [],
+"original_title": "2000",
+"audio_described": false,
+"parent_position": 4,
+"requires_sign_in": true,
+"release_date_time": "2016-12-17T00:00:00.000Z",
+"lexical_sort_letter": "B",
+"requires_tv_licence": true
+}
+]
+},
+{
+"id": "p04gw2hg",
+"type": "programme_large",
+"title": "Basketball",
+"images": {
+"type": "image",
+"standard": "https://ichef.bbci.co.uk/images/ic/{recipe}/p04gw30y.jpg"
+},
+"labels": {
+"category": "Sport"
+},
+"synopses": {
+"small": "Watch live BBC Sport Basketball coverage."
+},
+"suppliers": [],
+"tleo_type": "brand",
+"categories": [
+"sport"
+],
+"master_brand": {
+"id": "bbc_sport",
+"titles": {
+"large": "BBC Sport",
+"small": "BBC Sport",
+"medium": "BBC Sport"
+},
+"attribution": "bbc_sport"
+},
+"lexical_sort_letter": "B",
+"status": "available",
+"count": 4,
+"initial_children": [
+{
+"id": "p04hdjc9",
+"live": false,
+"type": "episode",
+"title": "Basketball",
+"images": {
+"type": "image",
+"standard": "https://ichef.bbci.co.uk/images/ic/{recipe}/p04lq9jn.jpg"
+},
+"labels": {
+"category": "Sport"
+},
+"signed": false,
+"status": "available",
+"tleo_id": "p04gw2hg",
+"guidance": false,
+"subtitle": "BBL 2016-17: Sheffield Sharks v Leeds Force",
+"synopses": {
+"small": "Follow live BBC coverage from the BBL as Sheffield Sharks welcome Leeds Force to the EIS."
+},
+"versions": [
+{
+"hd": true,
+"id": "p04hdjql",
+"kind": "original",
+"type": "version",
+"download": false,
+"duration": {
+"text": "120 mins",
+"value": "PT2H"
+},
+"availability": {
+"end": "2017-01-15T21:30:00Z",
+"start": "2016-12-19T13:40:28Z",
+"remaining": {
+"text": "Available for 26 days"
+}
+},
+"first_broadcast": "16 Dec 2016"
+}
+],
+"parent_id": "p04gw6hr",
+"suppliers": [],
+"tleo_type": "brand",
+"categories": [
+"sport"
+],
+"has_credits": false,
+"master_brand": {
+"id": "bbc_sport",
+"titles": {
+"large": "BBC Sport",
+"small": "BBC Sport",
+"medium": "BBC Sport"
+},
+"attribution": "bbc_sport"
+},
+"release_date": "16 Dec 2016",
+"related_links": [],
+"original_title": "Sheffield Sharks v Leeds Force",
+"audio_described": false,
+"requires_sign_in": true,
+"release_date_time": "2016-12-16T00:00:00.000Z",
+"lexical_sort_letter": "B",
+"requires_tv_licence": true
+}
+]
+},
+{
+"id": "b05y1cgd",
+"type": "programme_large",
+"title": "BBC Business Live",
+"images": {
+"type": "image",
+"standard": "https://ichef.bbci.co.uk/images/ic/{recipe}/p02spcn6.jpg"
+},
+"labels": {
+"category": "News"
+},
+"synopses": {
+"small": "A look at the global business stories.",
+"medium": "A look at the global business stories."
+},
+"suppliers": [],
+"tleo_type": "brand",
+"categories": [
+"news"
+],
+"master_brand": {
+"id": "bbc_news24",
+"titles": {
+"large": "BBC News Channel",
+"small": "BBC News",
+"medium": "BBC News"
+},
+"ident_id": "p00pvbhy",
+"attribution": "bbc_news24"
+},
+"lexical_sort_letter": "B",
+"status": "available",
+"count": 22,
+"initial_children": [
+{
+"id": "b0873xr0",
+"live": false,
+"type": "episode",
+"title": "BBC Business Live",
+"images": {
+"type": "image",
+"standard": "https://ichef.bbci.co.uk/images/ic/{recipe}/p02spcn6.jpg",
+"inherited_from": "brand"
+},
+"labels": {
+"category": "News"
+},
+"signed": false,
+"status": "available",
+"tleo_id": "b05y1cgd",
+"guidance": false,
+"subtitle": "20/12/2016",
+"synopses": {
+"small": "A look at the global business stories.",
+"medium": "A look at the global business stories."
+},
+"versions": [
+{
+"hd": true,
+"id": "b0873xqs",
+"kind": "original",
+"type": "version",
+"download": true,
+"duration": {
+"text": "30 mins",
+"value": "PT30M"
+},
+"availability": {
+"end": "2017-01-19T09:00:00Z",
+"start": "2016-12-20T10:26:25Z",
+"remaining": {
+"text": "Available for 29 days"
+}
+},
+"first_broadcast": "8:30am 20 Dec 2016"
+}
+],
+"parent_id": "b05y1cgd",
+"suppliers": [],
+"tleo_type": "brand",
+"categories": [
+"news"
+],
+"has_credits": false,
+"master_brand": {
+"id": "bbc_news24",
+"titles": {
+"large": "BBC News Channel",
+"small": "BBC News",
+"medium": "BBC News"
+},
+"ident_id": "p00pvbhy",
+"attribution": "bbc_news24"
+},
+"release_date": "20 Dec 2016",
+"related_links": [],
+"original_title": "20/12/2016",
+"audio_described": false,
+"requires_sign_in": true,
+"release_date_time": "2016-12-20T00:00:00.000Z",
+"lexical_sort_letter": "B",
+"requires_tv_licence": true
+}
+]
+},
+{
+"id": "p028nzkj",
+"type": "programme_large",
+"title": "BBC Music Awards",
+"images": {
+"type": "image",
+"standard": "https://ichef.bbci.co.uk/images/ic/{recipe}/p02d0229.jpg"
+},
+"labels": {
+"category": "Music"
+},
+"synopses": {
+"small": "Coverage of the BBC Music Awards.",
+"medium": "Coverage of the BBC Music Awards."
+},
+"suppliers": [
+{
+"id": "bbc_store",
+"title": "BBC Store"
+}
+],
+"tleo_type": "brand",
+"categories": [
+"music"
+],
+"master_brand": {
+"id": "bbc_music",
+"titles": {
+"large": "BBC",
+"small": "BBC",
+"medium": "BBC"
+},
+"attribution": "bbc"
+},
+"lexical_sort_letter": "B",
+"status": "available",
+"count": 1,
+"initial_children": [
+{
+"id": "b0863ls7",
+"live": false,
+"type": "episode",
+"title": "BBC Music Awards",
+"images": {
+"type": "image",
+"standard": "https://ichef.bbci.co.uk/images/ic/{recipe}/p04l4zwr.jpg"
+},
+"labels": {
+"category": "Entertainment"
+},
+"signed": false,
+"status": "available",
+"tleo_id": "p028nzkj",
+"guidance": true,
+"subtitle": "2016: 1. BBC Music Awards",
+"synopses": {
+"large": "Hosted by Claudia Winkleman, Fearne Cotton and Gemma Cairney, the BBC Music Awards is a spectacular celebration of the best in popular music from the last 12 months. \n\nThe live extravaganza features captivating performances from Robbie Williams, The 1975, Emeli Sande, John Legend, Lukas Graham, Kaiser Chiefs, Zara Larsson and Craig David to review and celebrate the year. \n\nThere are also five coveted awards to be handed out, including British Artist of the Year, Song of the Year, Introducing Artist of the Year, BBC Radio 1 Live Lounge Performance of the Year and BBC Radio 2 Album of the Year.",
+"small": "Music extravaganza with Robbie Williams, The 1975, Emeli Sande, John Legend and more.",
+"medium": "Claudia Winkleman, Fearne Cotton and Gemma Cairney host the annual BBC Music Awards, celebrating an amazing 12 months of popular music across the BBC.",
+"editorial": "Packed with electrifying performances from Robbie Williams, Emeli Sande and John Legend."
+},
+"versions": [
+{
+"hd": true,
+"id": "b0863g8z",
+"kind": "original",
+"type": "version",
+"download": true,
+"duration": {
+"text": "90 mins",
+"value": "PT1H30M"
+},
+"guidance": {
+"id": "RFI",
+"text": {
+"large": "Contains scenes of flashing images.",
+"small": "Has guidance",
+"medium": "Contains flashing images."
+}
+},
+"availability": {
+"end": "2017-01-11T22:00:00Z",
+"start": "2016-12-12T22:02:42Z",
+"remaining": {
+"text": "Available for 22 days"
+}
+},
+"first_broadcast": "8:30pm 12 Dec 2016"
+}
+],
+"parent_id": "b080kv4c",
+"suppliers": [
+{
+"id": "bbc_store",
+"title": "BBC Store"
+}
+],
+"tleo_type": "brand",
+"categories": [
+"entertainment",
+"music"
+],
+"has_credits": true,
+"master_brand": {
+"id": "bbc_one",
+"titles": {
+"large": "BBC One",
+"small": "BBC One",
+"medium": "BBC One"
+},
+"ident_id": "p04ftjsf",
+"attribution": "bbc_one"
+},
+"release_date": "12 Dec 2016",
+"related_links": [
+{
+"id": "p04khpv6",
+"url": "http://www.bbc.co.uk/iplayer/episodes/p028nzkj",
+"kind": "priority_content",
+"type": "link",
+"title": "Buy previous year's awards"
+}
+],
+"original_title": "BBC Music Awards",
+"audio_described": false,
+"parent_position": 1,
+"requires_sign_in": true,
+"release_date_time": "2016-12-12T00:00:00.000Z",
+"editorial_subtitle": "A spectacular celebration of 2016's best pop music",
+"lexical_sort_letter": "B",
+"requires_tv_licence": true
+}
+]
+},
+{
+"id": "b007mpl9",
+"type": "programme_large",
+"title": "BBC News at One",
+"images": {
+"type": "image",
+"standard": "https://ichef.bbci.co.uk/images/ic/{recipe}/p01lc2hd.jpg"
+},
+"labels": {
+"category": "News"
+},
+"synopses": {
+"small": "The latest national and international news",
+"medium": "The latest national and international news"
+},
+"suppliers": [],
+"tleo_type": "brand",
+"categories": [
+"news"
+],
+"master_brand": {
+"id": "bbc_news",
+"titles": {
+"large": "BBC News",
+"small": "BBC News",
+"medium": "BBC News"
+},
+"attribution": "bbc_news"
+},
+"lexical_sort_letter": "B",
+"status": "available",
+"count": 1,
+"initial_children": [
+{
+"id": "b085drpr",
+"live": false,
+"type": "episode",
+"title": "BBC News at One",
+"images": {
+"type": "image",
+"standard": "https://ichef.bbci.co.uk/images/ic/{recipe}/p01lc2hd.jpg",
+"inherited_from": "brand"
+},
+"labels": {
+"time": "Last Chance",
+"category": "News"
+},
+"signed": true,
+"status": "available",
+"tleo_id": "b007mpl9",
+"guidance": false,
+"subtitle": "20/12/2016",
+"synopses": {
+"small": "National and international news stories from the BBC News team, followed by weather.",
+"medium": "The latest national and international news stories from the BBC News team, followed by weather."
+},
+"versions": [
+{
+"hd": true,
+"id": "b085drpb",
+"kind": "original",
+"type": "version",
+"download": true,
+"duration": {
+"text": "30 mins",
+"value": "PT30M"
+},
+"availability": {
+"end": "2016-12-21T13:30:00Z",
+"start": "2016-12-20T13:35:44Z",
+"remaining": {
+"text": "Expires tomorrow 1:30pm"
+}
+},
+"first_broadcast": "1pm 20 Dec 2016"
+},
+{
+"hd": true,
+"id": "b0873xq7",
+"kind": "signed",
+"type": "version",
+"download": true,
+"duration": {
+"text": "30 mins",
+"value": "PT30M"
+},
+"availability": {
+"end": "2016-12-21T13:30:00Z",
+"start": "2016-12-20T14:51:23Z",
+"remaining": {
+"text": "Expires tomorrow 1:30pm"
+}
+},
+"first_broadcast": "20 Dec 2016"
+}
+],
+"parent_id": "b007mpl9",
+"suppliers": [],
+"tleo_type": "brand",
+"categories": [
+"news",
+"signed"
+],
+"has_credits": false,
+"master_brand": {
+"id": "bbc_news",
+"titles": {
+"large": "BBC News",
+"small": "BBC News",
+"medium": "BBC News"
+},
+"attribution": "bbc_news"
+},
+"release_date": "20 Dec 2016",
+"related_links": [],
+"original_title": "20/12/2016",
+"audio_described": false,
+"requires_sign_in": true,
+"release_date_time": "2016-12-20T00:00:00.000Z",
+"lexical_sort_letter": "B",
+"requires_tv_licence": true
+}
+]
+},
+{
+"id": "b007mpkn",
+"type": "programme_large",
+"title": "BBC News at Six",
+"images": {
+"type": "image",
+"standard": "https://ichef.bbci.co.uk/images/ic/{recipe}/p01lc2j5.jpg"
+},
+"labels": {
+"category": "News"
+},
+"synopses": {
+"small": "The latest national and international news",
+"medium": "The latest national and international news"
+},
+"suppliers": [],
+"tleo_type": "brand",
+"categories": [
+"news"
+],
+"master_brand": {
+"id": "bbc_news",
+"titles": {
+"large": "BBC News",
+"small": "BBC News",
+"medium": "BBC News"
+},
+"attribution": "bbc_news"
+},
+"lexical_sort_letter": "B",
+"status": "available",
+"count": 1,
+"initial_children": [
+{
+"id": "b085drq9",
+"live": false,
+"type": "episode",
+"title": "BBC News at Six",
+"images": {
+"type": "image",
+"standard": "https://ichef.bbci.co.uk/images/ic/{recipe}/p01lc2j5.jpg",
+"inherited_from": "brand"
+},
+"labels": {
+"time": "Last Chance",
+"category": "News"
+},
+"signed": false,
+"status": "available",
+"tleo_id": "b007mpkn",
+"guidance": false,
+"subtitle": "20/12/2016",
+"synopses": {
+"small": "National and international news stories from the BBC News team, followed by weather.",
+"medium": "The latest national and international news stories from the BBC News team, followed by weather."
+},
+"versions": [
+{
+"hd": true,
+"id": "b085drp1",
+"kind": "original",
+"type": "version",
+"download": true,
+"duration": {
+"text": "30 mins",
+"value": "PT30M"
+},
+"availability": {
+"end": "2016-12-21T18:30:00Z",
+"start": "2016-12-20T18:30:50Z",
+"remaining": {
+"text": "Expires tomorrow 6:30pm"
+}
+},
+"first_broadcast": "6pm 20 Dec 2016"
+}
+],
+"parent_id": "b007mpkn",
+"suppliers": [],
+"tleo_type": "brand",
+"categories": [
+"news"
+],
+"has_credits": false,
+"master_brand": {
+"id": "bbc_news",
+"titles": {
+"large": "BBC News",
+"small": "BBC News",
+"medium": "BBC News"
+},
+"attribution": "bbc_news"
+},
+"release_date": "20 Dec 2016",
+"related_links": [],
+"original_title": "20/12/2016",
+"audio_described": false,
+"requires_sign_in": true,
+"release_date_time": "2016-12-20T00:00:00.000Z",
+"lexical_sort_letter": "B",
+"requires_tv_licence": true
+}
+]
+}
+]
+}
