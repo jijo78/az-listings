@@ -1,14 +1,15 @@
 <script id="output-results" type="text/x-handlebars-template">
-
   <div clas="row">
     \{{#ifCond pagination.totalPages 1 }}
       <nav aria-label="Page navigation">
-        <ul class="pagination">
-          <li><a href="#">\{{ pagination.page }}</a></li>
+        <ul class="pagination" data-letter="\{{ pagination.char }}">
+          \{{#each pagination.pages}}
+            <li class="page-item"><a href="#\{{ this }}">\{{ this }}</a></li>
+          \{{/each}}
         </ul>
       </nav>
     \{{/ifCond}}
-      <ul>
+      <ul class="output__items">
     \{{#each programmes}}
         <li class="output__item">
           <figure>
@@ -22,6 +23,5 @@
     </ul>
   </div>
 </script>
-
 
 <section class="output" id="content"></section>

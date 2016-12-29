@@ -33,13 +33,13 @@ ul {
 
 li{
 	display: inline-block;
-	padding: 0 ($size-small/2) ($size-small) 0;
+	padding: $reset ($size-large) ($size-small) 0;
 	vertical-align: top;
 }
 
 h2 {
 		font-size: 2rem;
-		margin: $size-small 0;
+		margin: $size-small $reset;
 }
 
 a {
@@ -51,4 +51,15 @@ a {
 a:hover {
 	text-decoration: none;
 	background-color: #b01e1a;
+}
+
+figcaption{
+	margin: $size-small $reset;
+}
+
+.spinner{
+	background-image: url("/img/ajax-loader.gif");
+	background-size: 52px 52px;
+	background-position: top center;
+	background-repeat: no-repeat;
 }
