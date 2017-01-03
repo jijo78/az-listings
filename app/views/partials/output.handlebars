@@ -25,4 +25,19 @@
   </div>
 </script>
 
+<script id="output-pagination-results" type="text/x-handlebars-template">
+      <ul class="output__items">
+    \{{#each programmes}}
+        <li class="output__item">
+          <figure>
+            \{{#replace "{recipe}" "406x228"}}
+              <img src="\{{images.standard}}" alt="\{{ title }}" />
+            \{{/replace}}
+            <figcaption>\{{ title }}</figcaption>
+          </figure>
+      </li>
+    \{{/each}}
+    </ul>
+  </div>
+</script>
 <section class="output" id="content"></section>

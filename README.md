@@ -9,3 +9,6 @@
 
 ##To test
 * npm test
+
+##On heroku
+* http://tv-listing.herokuapp.com/
