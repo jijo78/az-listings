@@ -46,7 +46,6 @@ describe("AzListing Tests", function() {
         var url = 'listing';
         beforeEach(function() {
             this.xhr = sinon.useFakeXMLHttpRequest();
-
             this.requests = [];
             this.xhr.onCreate = function(xhr) {
                 this.requests.push(xhr);

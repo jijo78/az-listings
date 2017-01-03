@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jijo78/train.git"
+    "url": "https://github.com/jijo78/az-listings.git"
   },
   "author": "Giuseppe De Marino",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jijo78/train/issues"
+    "url": "https://github.com/jijo78/az-listings/issues"
   },
-  "homepage": "https://github.com/jijo78/train",
+  "homepage": "https://github.com/jijo78/az-listings/train",
   "dependencies": {
     "debug": "^2.2.0",
     "express": "^4.13.4",
