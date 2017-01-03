@@ -1,60 +1,31 @@
  (function (exports) {
    'use strict';
-
   /**
    * This is the AzListing constructor
    * @constructor
    * @this {AzListing}
    */
     function AzListing() {
-      var _this = this;
-
-      //Global element.
       this.programmeLetters = document.querySelectorAll( '.listing__order' );
       this.queryResults = document.querySelector( '.output' );
-      this.queryResultsContainer = document.querySelector( '.output__items' );
 
-
-      //Actions
-      [].forEach.call( this.programmeLetters, function ( letter ) {
-        letter.addEventListener( 'click', function(){
-            var value =  this.innerHTML,
-                url = '?letter='+ value;
-
-          _this.getQuery( url, _this.dataSuccess.bind(_this) );
-
-          $('.listing__order').removeClass('active');
-          this.classList.add('active');
-        });
-      });
-
-      $('.output').on('click', '.pagination a', function( e ) {
-        e.preventDefault();
-
-        var value =  this.innerHTML,
-            pagination = document.querySelector('.pagination'),
-            dataLetter = pagination.dataset.letter,
-            url = '?letter='+ dataLetter+'&page='+ value,
-            target = e.target;
-
-        _this.getQuery( url, _this.dataSuccess.bind(_this) );
-        target.classList.remove('active');
-
-        e.currentTarget.classList.add('active');
-      });
-
+      this.displayResultsByLetter();
+      this.paginateResults();
     }
 
     /**
      * getQuery make the ajax call to the feed.
-     * @param {[Function]} callback
+     * @param {String} url passed to the proxy server
+     * @param {Function} callback in this case this.updateView
      */
-    AzListing.prototype.getQuery = function ( url, callback ) {
+    AzListing.prototype.getQuery = function ( url,callback ) {
 
       var _this = this,
           deferred = $.Deferred();
 
-          _this.queryResults.classList.add('spinner');
+          if ( _this.queryResults ) {
+              _this.queryResults.classList.add('spinner');
+          }
 
         $.ajax( {
             type: 'GET',
@@ -65,8 +36,7 @@
         });
 
         /**
-         * Return a successful promise
-         * @param {[Object]} response
+         * @param {Object} response returned from 
          */
         function onResponse( response ) {
             deferred.resolve( response );
@@ -74,68 +44,74 @@
         }
 
         /**
-         * Return an error on rejection
-         * @param {[Object]} response
+         * @param {Object} response
          */
         function onError( response ) {
             deferred.reject( response );
             callback((response.status +' '+ response.statusText));
         }
 
-        //function addClass(){
-        //   var elements = document.querySelectorAll( '.pagination a' ); // grab a reference to your element
-        //   [].forEach.call( elements, function ( element ) {
-        //     var elementIsClicked = false; // declare the variable that tracks the state
-        //     function clickHandler(){ // declare a function that updates the state
-        //       elementIsClicked = true;
-        //       console.log(elementIsClicked);
-        //       this.classList.add('active');
-        //     }
-        //     element.addEventListener( 'click', clickHandler);
-        //   });
-        // }
-
-
         return deferred.promise();
     };
 
     /**
-     * dataLoop is an helper function that loop over the data returned.
-     * @param  {[Array]}   arr
-     * @param  {[Any]}   callBackArg
-     * @param  {[Array]}   newArr
+     * displayResultsByLetter make ajax call for each individual letter.
      */
-    AzListing.prototype.dataLoop = function ( arr, callBackArg ,newArr ) {
-      //safe check to make sure all arguments are passed in, and they are
-      //of the right type.
-      if($.isArray( arr ) &&
-        callBackArg !== null &&
-        $.isArray(newArr)
-      ){
-        arr.forEach( function( callBackArg ) {
-          newArr.push(callBackArg);
+    AzListing.prototype.displayResultsByLetter = function () {
+      var _this =  this;
+
+      //convert querySelectorAll NodeList in real array.
+      [].forEach.call( this.programmeLetters, function ( letter ) {
+        letter.addEventListener( 'click', function(){
+          var value =  this.innerHTML,
+              url = '?letter='+ value;
+
+          //make ajax call.
+          _this.getQuery( url, _this.updateView.bind(_this) );
+
+          $('.listing__order').removeClass('active');
+          this.classList.add('active');
         });
-      } else{
-        throw new Error('Missing Argument or Argument is of the wrong type.');
-      }
+      });
+    };
+
+
+    /**
+     * paginateResults make ajax call for individual pagination item.
+     */
+    AzListing.prototype.paginateResults = function () {
+      var _this =  this;
+
+      $('.output').on('click', '.pagination a', function( e ) {
+
+        e.preventDefault();
+
+        var value =  this.innerHTML,
+            pagination = document.querySelector('.pagination'),
+            dataLetter = pagination.dataset.letter,
+            url = '?letter='+ dataLetter +'&page='+ value;
+
+        //make ajax call.
+        _this.getQuery( url, _this.updateView.bind(_this) );
+      });
     };
 
     /**
-     * dataSuccess deal with the data and pass it back to handlebars view.
-     * @param  {[Object]}   data
+     * updateView deal with the ajax response and pass it back to handlebars view.
+     * @param  {Object} data Data passed from this.getQuery ajax response
      */
-    AzListing.prototype.dataSuccess = function ( data ) {
-      //lets check we have some data back, and the data is the right format before we proceed.
-      if( !data && typeof data !== 'object' ){
+    AzListing.prototype.updateView = function ( data ) {
+
+      if ( !data && typeof data !== 'object' ) {
         throw new Error('Missing data.');
       }
 
-      //lets store the feed in an array so we can let the view deal with the looping.
       var items = [],
           item,
           pagNumber = [],
           _this =  this,
-          template = Handlebars.compile( $( '#output-results' ).html() ),
+          results = $( '#output-results' ).html(),
+          template = Handlebars.compile( results ),
           pagination = {
             page : data.atoz_programmes.page,
             char : data.atoz_programmes.character,
@@ -149,46 +125,52 @@
             'pagination':pagination
           };
 
-      for( var i = 1; i <= pagination.totalPages; i++ ){
+      //loop over total pages so we always have right amount of
+      //pagination items.
+      for ( var i = 1; i <= pagination.totalPages; i++ ) {
         pagNumber.push(i);
       }
 
-      //lets empty the html before a new call
+      //lets empty the html before a new call it is made.
       _this.queryResults.innerHTML = '';
 
-      //call to helpers
       _this.handlebarsHelpers();
 
-      if( data.atoz_programmes.elements ){
-        _this.dataLoop( data.atoz_programmes.elements, item, items );
-        var html = template( context );
-        _this.queryResults.innerHTML = html;
-        _this.queryResults.classList.remove('spinner');
-      }
-      
+      //pass data back to handlebars view
+      data.atoz_programmes.elements.forEach( function( programme ) {
+        items.push(programme);
+      });
+      var html = template( context );
+      _this.queryResults.innerHTML = html;
+
+      _this.queryResults.classList.remove('spinner');
+
     };
 
     /**
      * handlebarsHelpers register some helpers to be used
      * in the view.
      */
-    AzListing.prototype.handlebarsHelpers = function ( ) {
+    AzListing.prototype.handlebarsHelpers = function () {
 
-      //equal deal with comparing values, which in Handlebars,
+      //ifGreater deal with comparing values, which in Handlebars,
       //it is not possible with if statement.
-      Handlebars.registerHelper( 'ifCond', function( v1, v2, options ) {
-        if(v1 > v2) {
+      Handlebars.registerHelper('ifGreater', function ( v1, v2, options ) {
+        if (v1 > v2) {
           return options.fn(this);
         }
+
         return options.inverse(this);
       });
 
-      Handlebars.registerHelper( 'replace', function( find, replace, options ) {
+      //Helpers needed to do some string replacement
+      Handlebars.registerHelper('replace', function ( find, replace, options ) {
       	var string = options.fn(this);
       	return string.replace( find, replace );
       });
 
     };
+
     //need to export the constructor to be able to unit test it.
     exports.AzListing = AzListing;
     return new AzListing();

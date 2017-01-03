@@ -3,43 +3,47 @@ var assert = chai.assert;
 var should = chai.should();
 
 
-describe("Train Departure Tests", function() {
-  var train = new TrainDeparture(),
-      data = {
-      	"services": [{
-      		"serviceIdentifier": "W91621",
-      		"serviceOperator": "SW",
-      		"transportMode": "TRAIN",
-      		"scheduledInfo": {
-      			"scheduledTime": "2016-09-19T16:50:00+01:00"
-      		},
-      		"callingType": "PickUp",
-      		"destinationList": [{
-      			"crs": "RDG"
-      		}],
-      		"realTimeUpdatesInfo": {
-      			"realTimeServiceInfo": {
-      				"realTime": "2016-09-19T16:50:00+01:00",
-      				"realTimePlatform": "18",
-      				"realTimeFlag": "Estimate"
-      			}
-      		},
-      		"callingPatternUrl": "https://realtime.thetrainline.com/callingPattern/W91621/2016-09-19"
-      	}]
-      };
+describe("AzListing Tests", function() {
 
-    describe("TrainDeparture constructor.", function() {
-      it("should exist when initialized.", function() {
-        var spy = sinon.spy(window, 'TrainDeparture');
-        var train = new TrainDeparture();
+  var listing = new AzListing(),
+      data =  {
+                "character": "b",
+                "count": 115,
+                "page": 1,
+                "per_page": 20,
+                "elements": [{
+                  "id": "p04cj7gf",
+                  "type": "programme_large",
+                  "title": "Babi Del: Ward Geni",
+                  "images": {
+                  "type": "image",
+                  "standard": "https://ichef.bbci.co.uk/images/ic/{recipe}/p04cqmlc.jpg"
+                  }
+                }]
+              };
 
-        expect(spy.called).to.be.equal(true);
+    describe("AzListing constructor.", function() {
+      beforeEach(function() {
+        this.listing = new AzListing();
+      });
+
+      afterEach(function() {
+        this.listing = null;
+      });
+
+      it("should call displayResultsByLetter.", function() {
+        expect(this.listing.displayResultsByLetter).not.to.be.undefined;
+      });
+
+      it("should call paginateResults.", function() {
+        expect(this.listing.paginateResults).not.to.be.undefined;
       });
     });
 
     describe('getQuery method.', function() {
       //no to make a real call, fake server
       //create a response to work with.
+        var url = 'listing';
         beforeEach(function() {
             this.xhr = sinon.useFakeXMLHttpRequest();
 
@@ -57,7 +61,7 @@ describe("Train Departure Tests", function() {
           //Parse the response to json object first.
           var dataJson = JSON.stringify(data);
 
-          train.getQuery(function(result) {
+          listing.getQuery( url, function(result) {
               result.should.deep.equal(data);
               done();
           });
@@ -65,26 +69,17 @@ describe("Train Departure Tests", function() {
           this.requests[0].respond(200, { 'Content-Type': 'text/json' }, dataJson);
         });
 
-        it('should not return data on a 400 Bad Request.', function(done) {
-          train.getQuery(function(result) {
-              result.should.not.to.be.deep.equal(data);
-              done();
-          });
-
-          this.requests[0].respond(400);
-        });
-
-        it('should return error on a 400 Bad Request.', function(done) {
-          train.getQuery(function(err) {
+        it('should return error on a 404 Not Found.', function(done) {
+          listing.getQuery( url, function(err) {
               err.should.exist;
               done();
           });
 
-          this.requests[0].respond(400);
+          this.requests[0].respond(404);
         });
 
         it('should return an error on a 500 Internal Server Error.', function(done) {
-            train.getQuery(function(err) {
+            listing.getQuery( url, function(err) {
                 err.should.exist;
                 done();
             });
@@ -94,26 +89,9 @@ describe("Train Departure Tests", function() {
 
       });
 
-      describe('dataLoop method.', function() {
-        it('should throw an error if called with no arguments.', function(done) {
-          expect(train.dataLoop).to.throw();
-          done();
-        });
-
-        it('should be called with right arguments.', function(done) {
-          var spy = sinon.spy(train, 'dataLoop'),
-              arr = [],
-              el = "";
-          spy(arr,el,arr);
-
-          spy.firstCall.args;
-          done();
-        });
-      });
-
-      describe('dataSuccess method.', function() {
+      describe('updateView method.', function() {
         it('should throw an error if called with no data.', function(done) {
-          expect(train.dataSuccess).to.throw();
+          expect(listing.updateView).to.throw();
           done();
         });
 
