@@ -81,6 +81,6 @@ module.exports = function(grunt) {
 
     // grunt ci
     grunt.registerTask('default', [ 'sass:dev', 'jshint', 'copy' ]);
-    grunt.registerTask('ci', [ 'sass:dist', 'copy']);
+    grunt.registerTask('ci', [ 'sass:dist', 'copy','jshint']);
 
 };

@@ -46,14 +46,14 @@ app.use('/', routes);
 app.use('/listing',  function( req, res ){
   var letter = req.query.letter;
   var page = req.query.page || 1;
-req.pipe( request({
-      url: `https://ibl.api.bbci.co.uk/v1/atoz/${letter}/programmes?page=${page}`,
-      qs: req.query,
-      method: req.method
-  }, function(error, response, body){
-    if (error){
-      console.error('Refused connection');
-    }
+  req.pipe( request({
+        url: `https://ibl.api.bbci.co.uk/v1/atoz/${letter}/programmes?page=${page}`,
+        qs: req.query,
+        method: req.method
+    }, function(error, response, body){
+      if (error){
+        console.error('Refused connection');
+      }
 
   })).pipe( res );
 });
@@ -68,7 +68,6 @@ app.use(function(req, res, next) {
 });
 
 // error handlers
-
 if (app.get('env') === 'development') {
   app.use(function(req, res, next) {
     res.status(err.status || 500);

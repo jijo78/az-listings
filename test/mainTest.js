@@ -7,6 +7,9 @@ describe("AzListing Tests", function() {
 
   var listing = new AzListing(),
       data =  {
+          	"version": "1.0",
+          	"schema": "/ibl/v1/schema/ibl.json",
+          	"atoz_programmes": {
                 "character": "b",
                 "count": 115,
                 "page": 1,
@@ -20,6 +23,7 @@ describe("AzListing Tests", function() {
                   "standard": "https://ichef.bbci.co.uk/images/ic/{recipe}/p04cqmlc.jpg"
                   }
                 }]
+              }
               };
 
     describe("AzListing constructor.", function() {
@@ -63,7 +67,7 @@ describe("AzListing Tests", function() {
           listing.getQuery( url, function(result) {
               result.should.deep.equal(data);
               done();
-          });
+          },'id','parent');
 
           this.requests[0].respond(200, { 'Content-Type': 'text/json' }, dataJson);
         });
@@ -72,7 +76,7 @@ describe("AzListing Tests", function() {
           listing.getQuery( url, function(err) {
               err.should.exist;
               done();
-          });
+          },'id','parent');
 
           this.requests[0].respond(404);
         });
@@ -81,16 +85,35 @@ describe("AzListing Tests", function() {
             listing.getQuery( url, function(err) {
                 err.should.exist;
                 done();
-            });
+            },'id','parent');
 
             this.requests[0].respond(500);
         });
 
       });
 
-      describe('updateView method.', function() {
-        it('should throw an error if called with no data.', function(done) {
-          expect(listing.updateView).to.throw();
+      describe('handleRequest method.', function() {
+
+        beforeEach(function() {
+          this.listing = new AzListing();
+        });
+
+        afterEach(function() {
+          this.listing = null;
+        });
+
+        it('should throw an error if called with no arguments.', function(done) {
+          expect(this.listing.handleRequest).to.throw();
+          done();
+        });
+
+        it("should call handlebarsHelpers.", function(done) {
+          expect(this.listing.handlebarsHelpers).not.to.be.undefined;
+          done();
+        });
+
+        it("should call paginateResults.", function(done) {
+          expect(this.listing.populateTemplate).not.to.be.undefined;
           done();
         });
 
