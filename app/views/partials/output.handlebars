@@ -1,32 +1,32 @@
+
 <script id="output-results" type="text/x-handlebars-template">
   <div clas="row">
     \{{#ifGreater pagination.totalPages 1 }}
       <nav aria-label="Page navigation">
         <ul class="pagination" data-letter="\{{ pagination.char }}">
           \{{#each pagination.pages}}
-            <li class="page-item"><a href="#\{{ this }}">\{{ this }}</a></li>
+            <li class="page-item" data-page="\{{ this }}"><a href="#\{{ this }}">\{{ this }}</a></li>
           \{{/each}}
         </ul>
       </nav>
     \{{/ifGreater}}
 
       <ul class="output__items">
-    \{{#each programmes}}
-        <li class="output__item">
-          <figure>
-            \{{#replace "{recipe}" "406x228"}}
-              <img src="\{{images.standard}}" alt="\{{ title }}" />
-            \{{/replace}}
-            <figcaption>\{{ title }}</figcaption>
-          </figure>
-      </li>
-    \{{/each}}
+      \{{#each programmes}}
+          <li class="output__item">
+            <figure>
+              \{{#replace "{recipe}" "406x228"}}
+                <img src="\{{images.standard}}" alt="\{{ title }}" />
+              \{{/replace}}
+              <figcaption>\{{ title }}</figcaption>
+            </figure>
+        </li>
+      \{{/each}}
     </ul>
   </div>
 </script>
 
-<script id="output-pagination-results" type="text/x-handlebars-template">
-      <ul class="output__items">
+<script id="output-results-paginate" type="text/x-handlebars-template">
     \{{#each programmes}}
         <li class="output__item">
           <figure>
@@ -37,7 +37,7 @@
           </figure>
       </li>
     \{{/each}}
-    </ul>
   </div>
 </script>
+
 <section class="output" id="content"></section>

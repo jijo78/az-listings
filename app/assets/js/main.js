@@ -17,9 +17,9 @@
     /**
      * getQuery make the ajax call to the feed.
      * @param {String} url passed to the proxy server
-     * @param {Function} callback in this case this.updateView
+     * @param {HTMLElement} template handlebars id to compile
      */
-    AzListing.prototype.getQuery = function ( url, callback ) {
+    AzListing.prototype.getQuery = function ( url, template, parent ) {
 
       var _this = this,
           deferred = $.Deferred();
@@ -37,11 +37,12 @@
         });
 
         /**
-         * @param {Object} response returned from
+         * @param {Object} response returned from proxy request.
          */
         function onResponse( response ) {
             deferred.resolve( response );
-            callback(response);
+            _this.updateView( response, template, parent );
+            //callback(response);
         }
 
         /**
@@ -49,7 +50,8 @@
          */
         function onError( response ) {
             deferred.reject( response );
-            callback((response.status +' '+ response.statusText));
+            _this.updateView( (response.status +' '+ response.statusText), template, parent );
+          //  callback((response.status +' '+ response.statusText));
         }
 
         return deferred.promise();
@@ -58,7 +60,7 @@
     /**
      * displayResultsByLetter make ajax call for each individual letter.
      */
-    AzListing.prototype.displayResultsByLetter = function () {
+    AzListing.prototype.displayResultsByLetter = function ( data ) {
       var _this =  this;
 
       //convert querySelectorAll NodeList in real array.
@@ -69,7 +71,7 @@
               results = $( '#output-results' ).html();
 
           //make ajax call.
-          _this.getQuery( url, _this.updateView.bind(_this, results) );
+          _this.getQuery( url, results, _this.queryResults );
 
           $('.listing__order').removeClass('active');
           this.classList.add('active');
@@ -84,6 +86,7 @@
     AzListing.prototype.paginateResults = function () {
       var _this =  this;
 
+      //
       $('.output').on('click', '.pagination a', function( e ) {
 
         e.preventDefault();
@@ -92,10 +95,13 @@
             pagination = document.querySelector('.pagination'),
             dataLetter = pagination.dataset.letter,
             url = '?letter='+ dataLetter +'&page='+ value,
-            results = $( '#output-pagination-results' ).html();
-
+            //results = //$( '#output-results-paginate' ).html();
+            template = document.getElementById('#output-results-paginate').innerHTML,
+            parent = document.querySelector('.output__items');
         //make ajax call.
-        _this.getQuery( url, _this.updateView.bind(_this, results) );
+        _this.getQuery( url, template, parent);
+        $('.pagination li').removeClass('active');
+        this.parentNode.classList.add('active');
       });
     };
 
@@ -103,8 +109,7 @@
      * updateView deal with the ajax response and pass it back to handlebars view.
      * @param  {Object} data Data passed from this.getQuery ajax response
      */
-    AzListing.prototype.updateView = function ( data, template ) {
-
+    AzListing.prototype.updateView = function ( data, template, parent ) {
       if ( !data && typeof data !== 'object' ) {
         throw new Error('Missing data.');
       }
@@ -138,25 +143,23 @@
       });
 
       _this.handlebarsHelpers();
-      _this.populateTemplate( context, template )
+      _this.populateTemplate( context, template, parent );
 
     };
 
     /**
-     * populateTemplate description
-     * @return {[type]} [description]
+     * populateTemplate compile handlebars template after data received.
      */
-    AzListing.prototype.populateTemplate = function ( data, template ) {
-      var tmp = Handlebars.compile( template ),
-          html = template( data );
+    AzListing.prototype.populateTemplate = function ( data, tmp, parent ) {
+      var tmpl = Handlebars.compile( tmp ),
+          html = tmpl( data );
 
           //lets empty the html before a new call it is made.
-          _this.queryResults.innerHTML = '';
-
-          _this.queryResults.innerHTML = html;
-
-          _this.queryResults.classList.remove('spinner');
+          parent.innerHTML = '';
+          parent.innerHTML = html;
+          this.queryResults.classList.remove('spinner');
     };
+
     /**
      * handlebarsHelpers register some helpers to be used
      * in the view.
